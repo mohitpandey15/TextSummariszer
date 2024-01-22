@@ -1,0 +1,23 @@
+**Problem Statement**
+
+The project revolves around the need for an efficient and automated text summarization tool that can summarize textual content in multiple languages (specifically, English, Hindi, and Bengali) while ensuring that the summary is meaningful and coherent. Text summarization is a critical task for various applications, such as news articles, research papers, legal documents, and more, to provide concise and digestible content for readers who may not have the time to go through lengthy texts.
+
+
+
+
+**Objective**
+
+The main objective of this project is to develop a text summarization tool that:
+
+1. Accepts textual content in multiple languages, specifically English, Hindi, and Bengali.
+2. Detects the language of the input text.
+3. Translates the text to English if it's not already in English.
+4. Summarizes the text in English using a state-of-the-art summarization model.
+5. Optionally translates the summary back to the original language based on user preference.
+6. Ensures that the generated summary is concise, coherent, and retains the key information from the original text.
+
+
+
+**Methodology**
+
+Our project adopts a modular approach to achieve multilingual text summarization. It starts with user-provided input, supporting multiple languages such as English, Hindi, and Bengali. Language detection helps identify the input language for further processing. We utilize pre-trained transformer models, such as BART and T5, for text summarization. The user has the flexibility to select the target language for the summary. Rigorous testing is conducted to ensure the quality and appropriateness of the summaries generated.The tool is designed with a user-friendly interface and comprehensive documentation for ease of access and understanding. This adjusted methodology focuses on the essential steps of our project without mentioning a specific dataset.
